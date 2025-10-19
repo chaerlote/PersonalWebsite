@@ -257,9 +257,9 @@ body {
 
 .app-item {
     display: flex; 
+    align-items: center; 
     justify-content: center; 
     gap: 20px; 
-    align-items: center; 
     margin-top: 15px;
 }
 
@@ -270,9 +270,9 @@ body {
 
 .lang-item {
     display: flex; 
+    align-items: center; 
     justify-content: center; 
     gap: 20px; 
-    align-items: center; 
     margin-top: 15px;
 }
 
@@ -360,7 +360,6 @@ body {
     animation: float 15s linear infinite alternate, rotate 20s linear infinite;
 }
 
-/* Shape Variations & Specific Placement */
 .shape-1 {
     width: 120px;
     height: 120px;
@@ -537,18 +536,6 @@ body {
         padding: 40px 30px;
     }
 
-    .portfolio-content-wrap {
-        grid-template-columns: 1fr;
-    }
-
-    .info-group {
-        flex-direction: column;
-        gap: 40px;
-    }
-    .app-item, .lang-item {
-        justify-content: flex-start; 
-    }
-
     /* logo size for mobile */
     .title-logo {
         width: 100%; 
@@ -584,8 +571,13 @@ body {
         flex-direction: column;
         gap: 40px;
     }
+
     .app-item, .lang-item {
         justify-content: flex-start; 
+        flex-wrap: wrap;
+    }
+    .app-item p, .lang-item p {
+        margin-right: 15px;
+        margin-bottom: 15px;
     }
 }
-
