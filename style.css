@@ -99,7 +99,7 @@ body {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     border-radius: 30px;
-    padding: 8vw 10vw 6vw; 
+    padding: 8vw 10vw 6vw;
     border: 1px solid rgba(255, 255, 255, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
     text-align: center;
@@ -332,13 +332,14 @@ body {
         flex-direction: column; 
         gap: 5px;
         align-items: center; 
-        padding-left: 0; 
+        padding-left: 0;
     }
     
     .contact-detail-item {
-        justify-content: center; 
+        justify-content: center;
     }
 }
+
 
 /* MOVING SHAPES STYLES */
 .background-shapes {
@@ -440,11 +441,10 @@ body {
     padding-bottom: 5px;
 }
 
-/* --- 4. Gallery Container and Item Styles --- */
 .gallery-container {
     max-width: 1400px;
     margin: 0 auto; 
-    padding: 0 20px 40px; /* Added bottom padding */
+    padding: 0 20px 40px; 
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
@@ -519,7 +519,7 @@ body {
     .main-nav {
         flex-direction: column;
         padding: 10px 20px;
-        align-items: center;
+        align-items: center; 
     }
 
     .nav-links {
