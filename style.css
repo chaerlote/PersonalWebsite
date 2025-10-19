@@ -537,6 +537,18 @@ body {
         padding: 40px 30px;
     }
 
+    .portfolio-content-wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .info-group {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .app-item, .lang-item {
+        justify-content: flex-start; 
+    }
+
     /* logo size for mobile */
     .title-logo {
         width: 100%; 
@@ -576,4 +588,4 @@ body {
         justify-content: flex-start; 
     }
 }
-/* -------------------------------------- */
+
